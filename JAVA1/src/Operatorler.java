@@ -33,7 +33,7 @@ public class Operatorler {
 		
 		boolean sonuc4 = (kosul) ? true : false ;
 		System.out.println("sonuç 4 :"+ sonuc4);
-		boolean sonuc5 = (kosul2) ? true : false ;// buranýn mantýðý doðru ise sol yanlýþ ise sað
+		boolean sonuc5 = (kosul2) ? true : true ;// buranýn mantýðý doðru ise sol yanlýþ ise sað
 		System.out.println("sonuc5 :"+ sonuc5);
 		// AYNI MANTIK AÞÞAÐIDA DA GEÇERLÝ SADECE BOOLEAN DEÐÝLDE STRÝNG TANIMLADIM VE DOÐRU YANLIÞ YAPTIM
 		String sonuc6 = (kosul)? "doðru": "yanlýþ";
