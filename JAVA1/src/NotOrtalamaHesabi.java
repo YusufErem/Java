@@ -17,6 +17,8 @@ public class NotOrtalamaHesabi {
 		finall = input.nextInt();
 		ortalama = ((finall*0.5)+(vize*0.3)+(quiz*0.2));
 		System.out.println("not ortalamanýz: "+ ortalama );
+		 String sonuc = (ortalama<=50) ? "kaldýnýz":"geçtiniz";
+		 System.out.println(sonuc);
 		
 		
 		
