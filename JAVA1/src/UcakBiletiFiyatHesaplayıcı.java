@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class UcakBiletiFiyatHesaplayýcý {
 
 	public static void main(String[] args) {
-		// Km birim fiyatý 10$
+		// Km birim fiyatý 1$
 		//12 yaþýndan küçükse %50 indirim
 		//12 24 yaþ arasýndaysa 10
 		//65 yaþýndan büyükse %30
@@ -28,7 +28,7 @@ public class UcakBiletiFiyatHesaplayýcý {
 		double yasliiki = yaþlýindirimli*0.2;
 		
 		
-		if (yas > 0 && km > 0 && tip==1 || tip==2) {
+	if (yas > 0 && km > 0 && tip==1 || tip==2) {
 		
 
 		if (yas<=12)
